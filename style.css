@@ -1,0 +1,95 @@
+body{
+    margin-top: 80px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar{
+    box-shadow: 2px 2px 5px #3292a6;
+    background: #ffffff;
+    opacity: 0.9;
+}
+.nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+.nav-item:last-child{
+    padding-right: 0;
+}
+
+.nav-link{
+    color:#252525 !important;
+}
+.nav-link:hover{
+    color:#3292a6 !important;
+}
+
+#home-section{
+    position: relative;
+    background-image: url(./image/flower2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+.primary-overlay{
+    background: rgba(50, 146, 156, 0.7);
+    position:absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#home-section .btn, #subscrib-section .btn, #subscrib-section input, #boxs .card {
+    border-radius: 0;
+}
+
+#contact .btn, #contact input, #contact textarea, #contact .fa {
+    border-radius: 0;
+}
+
+#subscrib-section input{
+    border: none;
+}
+
+#authors img{
+    margin-top: -50px;
+    border: 1px solid rgb(212, 211, 211);
+}
+
+#authors .card:hover{
+   background-color: #3292a6;
+   color: white;
+   opacity: 0.8;
+}
+#contact img{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+@media(max-width:768px){
+    #home-section{
+        height:600px;
+    }
+}
+
+@media(max-width:425px){
+    #home-section{
+        height: 600px;
+    }
+}
+
+@media(max-width:375px){
+    #home-section{
+        height: 700px;
+    }
+}
+
+@media(max-width:320px){
+    #home-section{
+        height: 800px;
+    }
+}
+
